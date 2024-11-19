@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abnormal MotorSports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" alt="Bootstrap" width="90" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sedan.html">Sedan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trucks.html">Trucks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="crossovers.html">Crossovers & SUV's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="motorcycles.html">Motorcycles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coupe.html">Coupe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 class="text-center">Car Purchase Checkout</h2>
+        <form id="checkoutForm">
+            <h4 class="section-title">Personal Information</h4>
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" required>
+            </div>
+    
+            <h4 class="section-title">Vehicle Information</h4>
+            <div class="mb-3">
+                <label for="vehicleModel" class="form-label">Select Vehicle Model</label>
+                <select class="form-select" id="vehicleModel" required>
+                    <option value="" disabled selected>Select a model</option>
+                    <option value="20000">Sedan</option>
+                    <option value="20000">Buick 2070 - $40,000</option>
+                    <option value="30000">Porshe 2070- $90,000</option>
+                    <option value="35000">Mercedes 2070 - $135,000</option>
+                    <option value="25000">Volvo 2070 - $45,000</option>
+                    <option value="20000">Mazda 2070 - $30,000</option>
+                    <option value="30000">BMW 2070 - $50,000</option>
+                    <option value="35000">Tesla 2070 - $55,000</option>
+                    <option value="25000">Lexus 2070 - $75,000</option>
+                    <option value="20000">Trucks</option>
+                    <option value="30000">Mercedes-Benz 2070 - $80,000</option>
+                    <option value="35000">Jeep 2070 - $85,000</option>
+                    <option value="25000">G-Wagon 2070  - $125,000</option>
+                    <option value="20000">Ford 2070 - $80,000</option>
+                    <option value="30000">Higer Bus 2070 - $130,000</option>
+                    <option value="35000">Tesla Truck 2070 - $135,000</option>
+                    <option value="25000">Mercedes-Benz V12 2070 - $125,000</option>
+                    <option value="20000">Greyhound 2070 - $220,000</option>
+                    <option value="30000">Crossovers & SUV's</option>
+                    <option value="35000">Mercedes 2070 - $135,000</option>
+                    <option value="25000">Jeep 2070- $95,000</option>
+                    <option value="20000">Toyota 2070 - $50,000</option>
+                    <option value="30000">Toyota 2070 - $40,000</option>
+                    <option value="35000">toyota 2070 - $45,000</option>
+                    <option value="25000">Mercedes 2070 - $125,000</option>
+                    <option value="20000">Mini cooper 2070 - $60,000</option>
+                    <option value="30000">Lexus 2070 - $130,000</option>
+                    <option value="35000">Motorcycles</option>
+                    <option value="25000">Ducati 2070 - $45,000</option>
+                    <option value="35000">BMW 2070 - $35,000</option>
+                    <option value="25000">Kawasaki 2070 - $45,000</option>
+                    <option value="35000">Ducati 2070 - $55,000</option>
+                    <option value="25000">Honda 2070 - $35,000</option>
+                    <option value="35000">BMW 2070 - $35,000</option>
+                    <option value="25000">Tesla 2070 - $25,000</option>
+                    <option value="35000">Lexus 2070 - $35,000</option>
+                    <option value="25000">Coupe</option>
+                    <option value="25000">Alpha Romero 2070 - $125,000</option>
+                    <option value="35000">Mclaren 2070 - $235,000</option>
+                    <option value="25000">Mercedes 2070 - $125,000</option>
+                    <option value="35000">Lexus 2070 - $135,000</option>
+                    <option value="25000">BMW M8 2070 - $125,000</option>
+                    <option value="35000">Mercedes 2070 - $135,000</option>
+                    <option value="25000">Tesla 2070 - $125,000</option>
+                    <option value="35000">Porshe 2070 - $235,000</option>
+                </select>
+            </div>
+            <h4 class="section-title">Payment Information</h4>
+            <div class="mb-3">
+                <label for="cardNumber" class="form-label">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Card Number" required>
+            </div>
+            <div class="mb-3">
+                <label for="cardExpiry" class="form-label">Expiry Date (MM/YY)</label>
+                <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY" required>
+            </div>
+            <div class="mb-3">
+                <label for="cardCVC" class="form-label">CVC</label>
+                <input type="text" class="form-control" id="cardCVC" placeholder="CVC" required>
+            </div>
+            <a href="thankyou.html" class="btn btn-dark btn-lg">Buy</a>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
