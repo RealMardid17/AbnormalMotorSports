@@ -54,8 +54,38 @@
           <div class="carousel-item">
             <img src="img/car2.jpg" class="d-block" alt="...">
           </div>
+            <div class="carousel-item active" data-bs-interval="1000"> 
+                <img src="img/car1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item"data-bs-interval="2000">
+                <img src="img/car3.jpg" class="d-block w-100 img-margin" alt="...">
+            </div>
+            <div class="carousel-item"data-bs-interval="3000">
+                <img src="img/car2.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
       </div>
+    </div>
+    <h1 class="title">Explore All Vehicles</h1>
+
+    <div id="app" class="container">
+        <card data-image src="img/car1.jpg">
+            <h1 slot="header">Sedan</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+      <card data-image src="img/car15.jpg">
+        <h1 slot="header">Trucks</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+      <card data-image src="img/car32.jpg">
+        <h1 slot="header">Motorcycles</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+      <card data-image src="img/car41.jpg">
+        <h1 slot="header">Coupe</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+    </div>
       <section class="footer">
         <!-- Footer -->
         <footer class="mt-auto bg-black text-white">
