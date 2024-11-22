@@ -44,6 +44,20 @@
            e * max-height: 700px; /* Set a max height for the images */
             width: auto; /* Maintain aspect ratio */
             margin: auto; /* Center the imag/
+        .carousel-item {
+          height: 100vh; /* Full viewport height */
+          }
+          .carousel-margin {
+          margin-top: 60px; /* Adjust the value as needed */
+          }
+          .carousel-item img {
+          max-width: 100%;
+          max-height: 110%; /* Ensure the image does not exceed the height of the carousel item */
+          height: auto; /* Maintain aspect ratio */
+          width: auto; /* Maintain aspect ratio */
+          display: block; /* Prevent inline spacing issues */
+          margin: auto\\; /* Center the image */
+          }
             $carousel-transition-duration:       .0s;
         }
             .container {
@@ -60,6 +74,7 @@
   
   :root {
     --card-height: 60vh;
+    --card-height: auto;
     --card-width: calc(var(--card-height) / 1.5);
   }
   
@@ -72,6 +87,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
+    box-sizing: auto;
   }
   
   
@@ -97,6 +113,7 @@
   }
 
     
+  
   
   .card::before {
     content: "";
